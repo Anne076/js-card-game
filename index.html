@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CARD GAME</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="App">
+        <div class="LeftWinner FlexCenter NeonTextOnly" id="p1-winner">
+               
+        </div>
+
+        <div class="RightWinner FlexCenter NeonTextOnly"id="p2-winner" >
+            
+        </div>
+
+        <div class="PlayerOne FlexCenter">
+            <div class="CardContainer" id="card-p1">
+                <div class="CardBody">
+                    <div class="CardSide CardBack NeonPink ">
+                        
+                    </div>
+
+                    <div class="CardSide CardFront NeonPink FlexCenter" id="card-p1-content">
+                        <h1>3</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="PlayerTwo FlexCenter">
+            <div class="CardContainer" id="card-p2">
+                <div class="CardBody">
+                    <div class="CardSide CardBack NeonPink ">
+                    </div>
+
+                    <div class="CardSide CardFront NeonPink FlexCenter" id="card-p2-content">
+                        <h1>3</h1>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        
+        <div class="GameZone FlexCenter">
+            <a class="GameButton Neon" id="play">
+                Jouer
+            </a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
