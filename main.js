@@ -13,6 +13,13 @@ let p2winner = document.getElementById('p2-winner')
 /*
     TODO: Générer les deux decks des joueurs
 */
+
+let card= ( "7", "8", "9", "10", "11"," 12", "13", "14","7", "8", "9", "10", "11"," 12", "13", "14","7", "8", "9", "10", "11"," 12", "13", "14","7", "8", "9", "10", "11"," 12", "13", "14")
+
+let cardP1 = ("0","16")
+let cardP2 = ( "16", "32")
+
+
 // CODE DE GENERATION
 
 function play(){
@@ -20,6 +27,8 @@ function play(){
     /*
     TODO: Récupérer la carte du dessus du packet pour les deux joueurs
     */
+    
+    
 
     /*
     TODO changer le .innerText des deux cartes avec la carte du dessus du packet
